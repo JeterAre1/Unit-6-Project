@@ -1,0 +1,147 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    background-image:url("https://static.wikia.nocookie.net/the-spiral-kingsisle/images/5/5a/Mooshu10.jpg/revision/latest?cb=20210422061533");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  	background-size: cover;
+    
+}
+
+button{
+    height: 60px;
+    width: 75px;
+    font-size: 30px;
+    background-color:white;
+    border:2.5px solid black;
+    border-radius:15px;
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+}
+
+button:hover{
+    filter:brightness(85%);
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+.bye{
+    color:black;
+    font-size:150px;
+    display:none;
+    background-color:white;
+    padding:20px 0px;
+}
+.restart{
+    color:black;
+    font-size:50px;
+    display:none;
+    background-color:white;
+    padding:20px 0px;
+    margin-top:-200px;
+}
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 350px;
+    
+}
+
+.yes-button {
+    
+}
+
+
+.Part-Two-Yes {
+    font-family: 'Cabin', sans-serif;
+   
+}
+
+
+.Path-Two {
+    font-family: 'Coiny', cursive;
+    
+
+}
+
+.Story-Ending-Yes {
+    font-family: 'Coiny', cursive;
+    display: none;
+
+}
+
+.Story-Ending-No {
+    font-family: 'Coiny', cursive;
+    display: none;
+}
+.title1{
+    display:flex;
+    justify-content:flex-start;
+}
+.end {
+    height: 350px;
+    display:none;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+.map1{
+    margin-left:10px;
+    margin-right:10px;
+    height:450px;
+    width:650px;
+    border-radius:5px;
+    border:3.5px solid black;
+}
+.map2{
+    margin-left:10px;
+    margin-right:10px;
+    height:450px;
+    width:650px;
+    border-radius:5px;
+    border:3.5px solid black;
+}
+.fly{
+    width:350px;
+    display:none;
+}
+.map1:hover{
+    filter: brightness(80%);
+}
+.map2:hover{
+    filter: brightness(80%);
+}
+.maps{
+    display:flex;
+    justify-content:space-evenly;
+}
+h2{
+    font-size:45px;
+    color:black;
+    margin:auto;
+    padding:20px 0px;
+    border-radius:8px;
+    margin-top:5px;
+    width: 650px;
+    
+    
+}
